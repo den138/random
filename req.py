@@ -5,7 +5,6 @@ import pip._vendor.requests as requests
 
 url = ""
 
-
 while True:
     response = requests.post(url, data={}).text
     print(response)
